@@ -20,6 +20,11 @@
     font-weight: var(--font-medium);
 }
 
+.nav__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .nav__list {
     display: flex;
     column-gap: 2rem;
@@ -69,6 +74,10 @@
         transition: .3s;
     }
 
+    .nav__logo {
+        font-size: 1.2rem;
+    }
+
     /* Show Menu */
     .show-menu {
         bottom: 0;
@@ -110,6 +119,10 @@
 @media screen and (max-width: 350px) {
     .nav__menu{
         padding: 2rem 0.25rem 4rem;
+    }
+
+    .nav__logo {
+        font-size: 1.1rem;
     }
 
     .nav__list {
