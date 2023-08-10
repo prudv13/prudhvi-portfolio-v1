@@ -15,7 +15,7 @@ const About = () => {
             <div className='about__data'>
                 <Info />
                 <p className='about__description'>
-                    Fullstack developer specialising in frontend web development and ux designing with an extensive hands-on experience of working with different technologies like react, spring boot and sql.
+                    I'm a full stack developer specialising in frontend web development and ux designing with an extensive hands-on experience of working with different technologies like react, spring boot and sql.
                 </p>
                 <a download='' href={MyResume} className='button button__flex'>
                     Download Resume

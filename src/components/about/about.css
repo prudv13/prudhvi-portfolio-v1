@@ -94,6 +94,8 @@
     }
 
     .about__description {
-        padding: 0 1rem;
+        padding: 0;
+        text-align: justify;
+        margin-right: 1rem;
     }
 }
