@@ -9,32 +9,32 @@ export const projectsData = [
     {
       id: 1,
       image: Work1,
-      title: "Web design",
-      category: "web",
+      title: "Far Away",
+      category: "frontend",
     },
     {
       id: 2,
       image: Work2,
-      title: "App movil",
-      category: "app",
+      title: "Blog Application",
+      category: "backend",
     },
     {
       id: 3,
       image: Work3,
-      title: "Brand design",
-      category: "design",
+      title: "Postit.",
+      category: "fullstack",
     },
     {
       id: 4,
       image: Work4,
-      title: "App movil",
-      category: "app",
+      title: "Weather Application",
+      category: "frontend",
     },
     {
       id: 5,
       image: Work5,
-      title: "Web design",
-      category: "web",
+      title: "UX Design",
+      category: "design",
     },
 ];
 
@@ -43,12 +43,12 @@ export const projectsNav = [
         name: "all"
     },
     {
-        name: "web"
+        name: "frontend"
     },
     {
-        name: "app"
+        name: "backend"
     },
     {
-        name: "design"
+        name: "fullstack"
     },
 ];
