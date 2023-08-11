@@ -16,7 +16,7 @@ const Experience = () => {
               </div>
             </div>
 
-            <div className='skills__data'>
+            <div className='qualification__data'>
               <i className='uil uil-briefcase-alt qualification__icon'></i>
               <div>
                   <h3 className='qualification__name'>Technology Head, Co-Founder</h3>
