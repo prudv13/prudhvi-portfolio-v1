@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 0.75rem;
     margin-bottom: var(--mb-2);
 }
@@ -110,12 +111,12 @@
 }
   
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 458px) {
     .work__item {
-        font-size: var(--small-font-size);
+        font-size: 0.8rem;
     }
 
     .work__filters {
-        column-gap: 0.25rem;
+        column-gap: 0.3rem;
     }
 }

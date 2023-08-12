@@ -6,7 +6,7 @@ const Data = () => {
         <h1 className='home__title'>Prudhvi Raj V
         </h1>
         <h3 className='home__subtitle'>Web Developer - UX Designer</h3>
-        <p className='home__description'>I'm a fullstack developer & ux designer based in India, and I'm very passionate and dedicated to my work.</p>
+        <p className='home__description'>Elevating User Journeys through code and design. Bridging fullstack development and ux innovation</p>
         <a href='#contact' className='button button__flex'>
             Say Hello
             <svg
