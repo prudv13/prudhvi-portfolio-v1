@@ -2,16 +2,17 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     column-gap: 4rem;
+    overflow-x: hidden;
 }
 
 .about__img {
-    width: 350px;
+    width: 320px;
     border-radius: 1.5rem;
     justify-self: center;
 }
 
 .about__info {
-    grid-template-columns: repeat(3, 140px);
+    grid-template-columns: repeat(3, 130px);
     gap: 0.5;
     margin-bottom: var(--mb-2);
 }
@@ -21,7 +22,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
-    padding: 1rem 1.25rem;
+    padding: 1rem 1.15rem;
     color: var(--title-color);
 }
 
@@ -92,13 +93,15 @@
         padding: 0 1rem;
     }
 }
-  
-  /* For small devices */
-@media screen and (max-width: 350px) {
+
+@media screen and (max-width: 396px) {
     .about__info {
         grid-template-columns: repeat(2, 1fr);
     }
-
+}
+  
+  /* For small devices */
+@media screen and (max-width: 350px) {
     .about__description {
         padding: 0;
         text-align: justify;
