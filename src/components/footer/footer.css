@@ -7,7 +7,8 @@ footer{
     padding: 1rem 0 6rem;
 }
 
-.footer__title, .footer__link {
+.footer__title, 
+.footer__link {
     color: var(--title-color);
 }
 
@@ -17,7 +18,7 @@ footer{
 }
 
 .footer__link:hover, .footer__link:active {
-    color: var(--title-color-dark);
+    color: #0c8599;
 }
 
 .footer__list {
@@ -43,7 +44,7 @@ footer{
 }
 
 .footer__social-link:hover, .footer__social-link:active {
-    background-color: var(--title-color-dark);
+    background-color: #0c8599;
 }
 
 .footer__copy {

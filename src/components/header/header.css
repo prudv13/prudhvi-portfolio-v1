@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: rgb(240, 240, 240);
 }
 
 .nav {
@@ -23,6 +23,10 @@
 .nav__logo {
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+.nav__logo:hover, .nav__logo:active {
+    color: #0c8599;
 }
 
 .nav__list {
@@ -47,7 +51,7 @@
 /* Active link */
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: #0c8599;
 }
 
 /* Change background header */
