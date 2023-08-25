@@ -60,7 +60,7 @@
     transition: 0.3s;
 }
 
-.contact__button:hover .contact__button-icon {
+.contact__button:hover, .contact__button:active .contact__button-icon {
     transition: translate(0.25rem);
     color: #000;
 }

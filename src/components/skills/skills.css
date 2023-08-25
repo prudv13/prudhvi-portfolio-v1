@@ -49,7 +49,10 @@
 }
 
 .skills__level {
+    padding-top: 3px;
+    margin-bottom: 5px;
     font-size: var(--tiny-font-size);
+    display: block;
 }
 
 

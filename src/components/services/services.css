@@ -150,6 +150,10 @@
     .services__modal-description {
         padding: 0;
     }
+
+    .services__content {
+        padding: 1rem 1rem 1rem 1.2rem;
+    }
 }
   
 /* For small devices */

@@ -28,28 +28,28 @@ const Services = () => {
                     <div className='services__modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
                         <h3 className='services__modal-title'>UI/UX Design</h3>
-                        <p className='services__modal-description'>
+                        {/*<p className='services__modal-description'>
                             Service with hands-on experience. Providing quality work to clients and companies.
-                        </p>
+                        </p>*/}
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Create Userflows.</p>
+                                <p className='services__modal-info'>Creating Userflows.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>High Fidelity Wireframing.</p>
+                                <p className='services__modal-info'>Designing high fidelity wireframing.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>UX Rsearch - user jouney maps, competitive audit.</p>
+                                <p className='services__modal-info'>Conducting UX research - user jouney maps, competitive audit.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Design high fidelity prototypes.</p>
+                                <p className='services__modal-info'>Designing high fidelity prototypes.</p>
                             </li>
                         </ul>
                     </div>
@@ -70,23 +70,23 @@ const Services = () => {
                     <div className='services__modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
                         <h3 className='services__modal-title'>Frontend Development</h3>
-                        <p className='services__modal-description'>
+                        {/*<p className='services__modal-description'>
                             Service with hands-on experience. Providing quality work to clients and companies.
-                        </p>
+                        </p>*/}
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Develop the user interfaces.</p>
+                                <p className='services__modal-info'>Developing user interfaces.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Create single page applications.</p>
+                                <p className='services__modal-info'>Creating single page applications.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Implement responsive web design and development.</p>
+                                <p className='services__modal-info'>Implementing responsive web design and development.</p>
                             </li>
 
                             <li className='services__modal-service'>
@@ -112,23 +112,23 @@ const Services = () => {
                     <div className='services__modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
                         <h3 className='services__modal-title'>Backend Development</h3>
-                        <p className='services__modal-description'>
+                        {/*<p className='services__modal-description'>
                             Service with hands-on experience. Providing quality work to clients and companies.
-                        </p>
+                        </p>*/}
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Create APIs that allow different parts of the application to communicate with each other.</p>
+                                <p className='services__modal-info'>Creating APIs that allow different parts of the application to communicate with each other.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Implement security measures to protect user data and the application.</p>
+                                <p className='services__modal-info'>Implementing security measures to protect user data and the application.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Design and optimize database schemas, write queries, and ensure efficient data storage and retrieval.</p>
+                                <p className='services__modal-info'>Designing and optimizing database schemas, write queries, and ensure efficient data storage and retrieval.</p>
                             </li>
 
                             <li className='services__modal-service'>

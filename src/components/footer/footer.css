@@ -16,7 +16,7 @@ footer{
     margin-bottom: var(--mb-2);
 }
 
-.footer__link:hover {
+.footer__link:hover, .footer__link:active {
     color: var(--title-color-dark);
 }
 
@@ -33,7 +33,7 @@ footer{
     column-gap: 1.25rem;
 }
 
-.footer__social-link {
+.footer__social-link, .footer__social-link:link {
     background-color: var(--title-color);
     color: var(--container-color);
     font-size: 1.25rem;
@@ -42,7 +42,7 @@ footer{
     display: inline-flex;
 }
 
-.footer__social-link:hover {
+.footer__social-link:hover, .footer__social-link:active {
     background-color: var(--title-color-dark);
 }
 

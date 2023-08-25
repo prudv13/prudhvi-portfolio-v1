@@ -10,7 +10,7 @@ const Frontend = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className='skills__name'>HTML</h3>
-                        <span className='skills__level'>semantic html, seo</span>
+                        <span className='skills__level'>semantic html, forms</span>
                     </div>
                 </div>
 

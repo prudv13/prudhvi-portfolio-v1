@@ -16,7 +16,7 @@
 }
 
 .home__social-icon {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     color: var(--title-color);
 }
 
@@ -202,5 +202,9 @@
     .home__description {
         max-width: initial;
         font-size: 0.75rem;
+    }
+
+    .home__social-icon {
+        font-size: 1.4rem;
     }
 }

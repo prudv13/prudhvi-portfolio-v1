@@ -16,7 +16,7 @@
     margin-bottom: var(--mb-2);
 }
 
-.about__box {
+.about__box, .about__box:link {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
@@ -25,7 +25,7 @@
     color: var(--title-color);
 }
 
-.about__box:hover {
+.about__box:hover, .about__box:active {
     background-color: #ebebeb;
     border: 1px solid #ebebeb;
 }
