@@ -15,7 +15,7 @@ const About = () => {
             <div className='about__data'>
                 <Info />
                 <p className='about__description'>
-                Welcome to my corner of the web! I'm Prudhvi, a passionate and dedicated Fullstack Developer and UX Designer with a year of invaluable experience under my belt. From lines of code to pixel-perfect designs, I thrive at the intersection of technology and creativity. I believe in the power of user-centered design and seamless functionality, and I'm on a mission to craft digital experiences that leave a lasting impact. I see every project as an opportunity to create intuitive, visually appealing, and emotionally resonant experiences.
+                Welcome to my corner of the web! I'm Prudhvi, a passionate and dedicated Fullstack Developer and UX Designer with invaluable experience under my belt. From lines of code to pixel-perfect designs, I thrive at the intersection of technology and creativity. I believe in the power of user-centered design and seamless functionality, and I'm on a mission to craft digital experiences that leave a lasting impact. I see every project as an opportunity to create intuitive, visually appealing, and emotionally resonant experiences.
                 </p>
                 <a download='' href={MyResume} className='button button__flex'>
                     Download Resume
