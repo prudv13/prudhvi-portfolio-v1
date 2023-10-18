@@ -7,6 +7,16 @@ const Experience = () => {
       <h3 className='qualification__title'>Experience</h3>
       <div className='qualification__box'>
           <div className='qualification__group'>
+
+            <div className='qualification__data'>
+              <i className='uil uil-briefcase-alt qualification__icon'></i>
+              <div>
+                  <h3 className='qualification__name'>Frontend Teaching Assistant</h3>
+                  <span className='qualification__level'>Nxt Wave</span>
+                  <i className='uil uil-calendar-alt'></i> Oct, 2023 - Present
+              </div>
+            </div>
+
             <div className='qualification__data'>
               <i className='uil uil-briefcase-alt qualification__icon'></i>
               <div>
