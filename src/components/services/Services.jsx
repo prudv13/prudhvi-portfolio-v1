@@ -27,14 +27,14 @@ const Services = () => {
                 <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                     <div className='services__modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
-                        <h3 className='services__modal-title'>UI/UX Design</h3>
+                        <h3 className='services__modal-title'>UX Design</h3>
                         {/*<p className='services__modal-description'>
                             Service with hands-on experience. Providing quality work to clients and companies.
                         </p>*/}
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Creating Userflows.</p>
+                                <p className='services__modal-info'>Creating Userflows, Mockups, Design Systems.</p>
                             </li>
 
                             <li className='services__modal-service'>
@@ -44,12 +44,16 @@ const Services = () => {
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Conducting UX research - user jouney maps, competitive audit.</p>
+                                <p className='services__modal-info'>Conducting UX research, Usability Testing.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>Designing high fidelity prototypes.</p>
+                            </li>
+                            <li className='services__modal-service'>
+                                <i className='uil uil-check-circle services__modal-icon'></i>
+                                <p className='services__modal-info'>Implementing Responsive Design</p>
                             </li>
                         </ul>
                     </div>
