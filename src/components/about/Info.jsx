@@ -6,7 +6,7 @@ const Info = () => {
         <a href='#qualification' className='about__box'>
             <i class="bx bx-award about__icon"></i>
             <h3 className='about__title'>Experience</h3>
-            <span className='about__subtitle'>3+ yrs hands-on</span>
+            <span className='about__subtitle'>1+ yrs hands-on</span>
         </a>
 
         <a href='#portfolio' className='about__box'>

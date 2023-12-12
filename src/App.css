@@ -160,6 +160,7 @@ img {
 .button__flex {
   display: inline-flex;
   align-items: center;
+  margin: 1%;
 }
 
 /* ============ BREAKPOINTS ============ */
