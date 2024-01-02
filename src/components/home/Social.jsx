@@ -14,6 +14,10 @@ const Social = () => {
         <a href='https://dribbble.com/prudhvi13' target="_blank" rel="noreferrer" className='home__social-icon'>
             <i class="uil uil-dribbble"></i>
         </a>
+
+        <a href='https://www.behance.net/prudhviraj43' target="_blank" rel="noreferrer" className='home__social-icon'>
+            <i class="uil uil-behance"></i>
+        </a>
     </div>
   )
 }

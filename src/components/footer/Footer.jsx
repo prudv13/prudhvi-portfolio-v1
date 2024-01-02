@@ -30,8 +30,8 @@ const Footer = () => {
                     <i class='bx bxl-linkedin-square'></i>
                 </a>
 
-                <a href='https://dribbble.com/prudhvi13' target="_blank" rel="noreferrer" className='footer__social-link'>
-                    <i class='bx bxl-dribbble'></i>
+                <a href='https://www.behance.net/prudhviraj43' target="_blank" rel="noreferrer" className='footer__social-link'>
+                    <i class="bx bxl-behance"></i>
                 </a>
             </div>
 
